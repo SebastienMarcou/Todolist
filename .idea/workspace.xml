@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf4d1f02-f9ec-4479-b5a2-5d8bfaa175f0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todolist-persistence/src/main/java/fr/icdc/dei/todolist/persistence/dao/TaskDao.java" afterPath="$PROJECT_DIR$/todolist-persistence/src/main/java/fr/icdc/dei/todolist/persistence/dao/TaskDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todolist-service/src/main/java/fr/icdc/dei/todolist/service/TaskService.java" afterPath="$PROJECT_DIR$/todolist-service/src/main/java/fr/icdc/dei/todolist/service/TaskService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todolist-service/src/main/java/fr/icdc/dei/todolist/service/impl/TaskServiceImpl.java" afterPath="$PROJECT_DIR$/todolist-service/src/main/java/fr/icdc/dei/todolist/service/impl/TaskServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todolist-service/src/test/java/fr/icdc/dei/todolist/service/TaskServiceTest.java" afterPath="$PROJECT_DIR$/todolist-service/src/test/java/fr/icdc/dei/todolist/service/TaskServiceTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todolist-service/src/test/resources/import.sql" afterPath="$PROJECT_DIR$/todolist-service/src/test/resources/import.sql" />
     </list>
     <ignored path="todolist.iws" />
@@ -70,8 +66,8 @@
       <file leaf-file-name="TaskServiceTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/todolist-service/src/test/java/fr/icdc/dei/todolist/service/TaskServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="75" column="20" selection-start-line="75" selection-start-column="20" selection-end-line="75" selection-end-column="20" />
+            <state relative-caret-position="216">
+              <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
               <folding>
                 <element signature="e#1660#1661#0" expanded="true" />
                 <element signature="e#1736#1737#0" expanded="true" />
@@ -83,7 +79,7 @@
       <file leaf-file-name="TaskDaoTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/todolist-persistence/src/test/java/fr/icdc/dei/todolist/persistence/dao/TaskDaoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-133">
+            <state relative-caret-position="-44">
               <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding />
             </state>
@@ -93,7 +89,7 @@
       <file leaf-file-name="TaskTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/todolist-persistence/src/test/java/fr/icdc/dei/todolist/persistence/entity/TaskTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
+            <state relative-caret-position="166">
               <caret line="53" column="44" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="44" />
               <folding />
             </state>
@@ -103,8 +99,8 @@
       <file leaf-file-name="import.sql" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/todolist-service/src/test/resources/import.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+            <state relative-caret-position="372">
+              <caret line="37" column="104" selection-start-line="37" selection-start-column="104" selection-end-line="37" selection-end-column="104" />
               <folding />
             </state>
           </provider>
@@ -123,12 +119,12 @@
       <file leaf-file-name="TaskServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/todolist-service/src/main/java/fr/icdc/dei/todolist/service/impl/TaskServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+            <state relative-caret-position="301">
+              <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding>
                 <element signature="e#839#840#0" expanded="true" />
                 <element signature="e#872#873#0" expanded="true" />
-                <element signature="e#1300#1306#0" expanded="true" />
+                <element signature="e#1316#1322#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -160,9 +156,9 @@
         <option value="$PROJECT_DIR$/todolist-persistence/src/main/java/fr/icdc/dei/todolist/persistence/entity/Task.java" />
         <option value="$PROJECT_DIR$/todolist-service/src/main/java/fr/icdc/dei/todolist/service/TaskService.java" />
         <option value="$PROJECT_DIR$/todolist-persistence/src/main/java/fr/icdc/dei/todolist/persistence/dao/TaskDao.java" />
-        <option value="$PROJECT_DIR$/todolist-service/src/main/java/fr/icdc/dei/todolist/service/impl/TaskServiceImpl.java" />
         <option value="$PROJECT_DIR$/todolist-service/src/test/java/fr/icdc/dei/todolist/service/TaskServiceTest.java" />
         <option value="$PROJECT_DIR$/todolist-service/src/test/resources/import.sql" />
+        <option value="$PROJECT_DIR$/todolist-service/src/main/java/fr/icdc/dei/todolist/service/impl/TaskServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -981,27 +977,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TaskServiceTest_testTaskExpectedEndInInterval - 2016.12.07 at 10h 49m 16s.xml">
-      <configuration name="TaskServiceTest.testTaskExpectedEndInInterval" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TaskServiceTest_testTaskExpectedEndInInterval - 2016.12.07 at 10h 50m 09s.xml">
-      <configuration name="TaskServiceTest.testTaskExpectedEndInInterval" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TaskServiceTest_testTaskExpectedEndInInterval - 2016.12.07 at 10h 51m 52s.xml">
-      <configuration name="TaskServiceTest.testTaskExpectedEndInInterval" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TaskServiceTest_testTaskListNotEndedHasTask - 2016.12.07 at 11h 49m 18s.xml">
-      <configuration name="TaskServiceTest.testTaskListNotEndedHasTask" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TaskServiceTest_testTaskListNotEndedHasTask - 2016.12.07 at 12h 51m 31s.xml">
-      <configuration name="TaskServiceTest.testTaskListNotEndedHasTask" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TaskServiceTest_testTaskListNotEndedHasTask - 2016.12.07 at 12h 53m 30s.xml">
-      <configuration name="TaskServiceTest.testTaskListNotEndedHasTask" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TaskServiceTest_testTaskListNotEndedHasTask - 2016.12.07 at 13h 00m 27s.xml">
-      <configuration name="TaskServiceTest.testTaskListNotEndedHasTask" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TaskServiceTest_testTaskListNotEndedHasTask - 2016.12.07 at 13h 05m 08s.xml">
       <configuration name="TaskServiceTest.testTaskListNotEndedHasTask" configurationId="JUnit" />
     </history-entry>
@@ -1009,6 +984,27 @@
       <configuration name="TaskServiceTest.testTaskListNotEndedHasTask" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TaskServiceTest_testTaskListNotEndedHasTask - 2016.12.07 at 13h 12m 07s.xml">
+      <configuration name="TaskServiceTest.testTaskListNotEndedHasTask" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TaskServiceTest_testTaskListNotEndedHasTask - 2016.12.08 at 08h 25m 29s.xml">
+      <configuration name="TaskServiceTest.testTaskListNotEndedHasTask" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TaskServiceTest_testTaskListNotEndedHasTask - 2016.12.08 at 08h 27m 18s.xml">
+      <configuration name="TaskServiceTest.testTaskListNotEndedHasTask" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TaskServiceTest_testTaskListNotEndedHasTask - 2016.12.08 at 08h 28m 31s.xml">
+      <configuration name="TaskServiceTest.testTaskListNotEndedHasTask" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TaskServiceTest_testTaskListNotEndedHasTask - 2016.12.08 at 08h 29m 09s.xml">
+      <configuration name="TaskServiceTest.testTaskListNotEndedHasTask" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TaskServiceTest_testTaskListNotEndedHasTask - 2016.12.08 at 08h 29m 27s.xml">
+      <configuration name="TaskServiceTest.testTaskListNotEndedHasTask" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TaskServiceTest_testTaskListNotEndedHasTask - 2016.12.08 at 08h 30m 26s.xml">
+      <configuration name="TaskServiceTest.testTaskListNotEndedHasTask" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TaskServiceTest_testTaskListNotEndedHasTask - 2016.12.08 at 08h 30m 46s.xml">
       <configuration name="TaskServiceTest.testTaskListNotEndedHasTask" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -1023,7 +1019,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298193" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1032,7 +1028,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35192564" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35192564" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1055,20 +1051,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/todolist-service/src/main/java/fr/icdc/dei/todolist/service/impl/TaskServiceImpl.java</url>
-          <line>53</line>
-          <properties />
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="10" />
+      <option name="time" value="15" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
         <watch expression="task" language="JAVA" />
         <watch expression="validTask" language="JAVA" />
+        <watch expression="taskService.listNotEndedInIntervalOfUser(ID_USER,BEGINNING_DATE,ENDING_DATE)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
@@ -1153,7 +1142,7 @@
           <folding>
             <element signature="e#839#840#0" expanded="true" />
             <element signature="e#872#873#0" expanded="true" />
-            <element signature="e#1300#1306#0" expanded="true" />
+            <element signature="e#1316#1322#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1234,7 +1223,7 @@
           <folding>
             <element signature="e#839#840#0" expanded="true" />
             <element signature="e#872#873#0" expanded="true" />
-            <element signature="e#1300#1306#0" expanded="true" />
+            <element signature="e#1316#1322#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1289,10 +1278,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/todolist-service/src/main/java/fr/icdc/dei/todolist/service/impl/TaskServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding>
+            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#872#873#0" expanded="true" />
+            <element signature="e#1316#1322#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todolist-persistence/src/test/java/fr/icdc/dei/todolist/persistence/entity/TaskTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="53" column="44" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todolist-persistence/src/test/java/fr/icdc/dei/todolist/persistence/dao/TaskDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-44">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/todolist-service/src/test/java/fr/icdc/dei/todolist/service/TaskServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="75" column="20" selection-start-line="75" selection-start-column="20" selection-end-line="75" selection-end-column="20" />
+        <state relative-caret-position="216">
+          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
           <folding>
             <element signature="e#1660#1661#0" expanded="true" />
             <element signature="e#1736#1737#0" expanded="true" />
@@ -1300,38 +1317,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/todolist-persistence/src/test/java/fr/icdc/dei/todolist/persistence/dao/TaskDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-133">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/todolist-persistence/src/test/java/fr/icdc/dei/todolist/persistence/entity/TaskTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="53" column="44" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/todolist-service/src/main/java/fr/icdc/dei/todolist/service/impl/TaskServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding>
-            <element signature="e#839#840#0" expanded="true" />
-            <element signature="e#872#873#0" expanded="true" />
-            <element signature="e#1300#1306#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/todolist-service/src/test/resources/import.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+        <state relative-caret-position="372">
+          <caret line="37" column="104" selection-start-line="37" selection-start-column="104" selection-end-line="37" selection-end-column="104" />
           <folding />
         </state>
       </provider>

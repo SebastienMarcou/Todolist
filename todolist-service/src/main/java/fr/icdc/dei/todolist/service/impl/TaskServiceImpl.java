@@ -42,7 +42,7 @@ public class TaskServiceImpl implements TaskService {
 
 	@Override
 	public boolean expectedEndIsInInterval(Task task, Date beginningDate, Date endingDate) {
-		return task.getEndingDate().compareTo(beginningDate) >= 0 && task.getEndingDate().compareTo(endingDate) <= 0;
+		return task.getExpectedEndingDate().compareTo(beginningDate) >= 0 && task.getExpectedEndingDate().compareTo(endingDate) <= 0;
 	}
 
 	@Override

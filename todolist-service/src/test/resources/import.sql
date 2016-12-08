@@ -35,4 +35,4 @@ INSERT INTO task(label,id_user, endingDate) VALUES('testExpectedEndIsInInterval'
 -- ID_USER = 4L
 INSERT INTO user(name, USER_TYPE) VALUES('testListNotEndedInIntervalOfUser', 'USER_FREE');
 --ID_TASK = 10L
-INSERT INTO task(label,id_user, endingDate) VALUES('testExpectedEndIsInInterval',  4, '2015-10-12 15:28:22');
+INSERT INTO task(label,id_user, expectedEndingDate) VALUES('testExpectedEndIsInInterval',  4, '2014-10-8 15:28:22');
