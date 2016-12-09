@@ -1,6 +1,7 @@
 package fr.icdc.dei.todolist.service.impl;
 
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 
@@ -59,6 +60,23 @@ public class TaskServiceImpl implements TaskService {
 		}
 		return  validTask;
 
+	}
+
+	@Override
+	public void endAllTaskInList(long idUser, Date beginningDate, Date endingDate) {
+		endTaskList(listNotEndedInIntervalOfUser(idUser,beginningDate,endingDate));
+	}
+
+	private void endTaskList(List<Task> tasks) {
+		for(Task task: tasks){
+
+			endTask(task);
+		}
+	}
+
+	private void endTask(Task task) {
+		task.setEndingDate(Calendar.getInstance().getTime());
+		taskDao.save(task);
 	}
 
 }

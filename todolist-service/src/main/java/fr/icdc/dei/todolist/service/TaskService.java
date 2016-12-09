@@ -18,4 +18,6 @@ public interface TaskService {
 	boolean expectedEndIsInInterval(Task task, Date beginningDate, Date endingDate);
 
 	List<Task> listNotEndedInIntervalOfUser(long idUser, Date beginningDate, Date endingDate);
+
+	void endAllTaskInList(long idUser, Date beginningDate, Date endingDate);
 }

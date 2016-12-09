@@ -31,8 +31,13 @@ INSERT INTO task(label,id_user,endingDate) VALUES('testIsEnded',  1,  '2010-10-1
 --ID_TASK = 8L
 INSERT INTO task(label,id_user) VALUES('testIsNotEnded',  1);
 --ID_TASK = 9L
-INSERT INTO task(label,id_user, endingDate) VALUES('testExpectedEndIsInInterval',  1, '2015-10-12 15:28:22');
+INSERT INTO task(label,id_user, expectedEndingDate) VALUES('testExpectedEndIsInInterval',  1, '2014-10-8 15:28:22');
 -- ID_USER = 4L
 INSERT INTO user(name, USER_TYPE) VALUES('testListNotEndedInIntervalOfUser', 'USER_FREE');
 --ID_TASK = 10L
 INSERT INTO task(label,id_user, expectedEndingDate) VALUES('testExpectedEndIsInInterval',  4, '2014-10-8 15:28:22');
+-- ID_USER = 5L
+INSERT INTO user(name, USER_TYPE) VALUES('testListNotEndedInIntervalOfUser', 'USER_FREE');
+--ID_TASK = 11L
+INSERT INTO task(label,id_user, expectedEndingDate) VALUES('testEndAllTaskInList',  5, '2014-10-8 15:28:22');
+

@@ -14,6 +14,7 @@ import fr.icdc.dei.todolist.persistence.entity.UserFree;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
+import java.util.List;
 
 public class TaskServiceTest extends AbstractServiceTest {
 
@@ -24,6 +25,8 @@ public class TaskServiceTest extends AbstractServiceTest {
 	public static final long ID_TASK_NOT_ENDED = 8L;
 	public static final long ID_TASK_ENDED = 7L;
 	public static final long ID_USER = 4L;
+	public static final long ID_USER4 = ID_USER;
+	public static final long ID_USER5 = 5L;
 	public static Date BEGINNING_DATE;
 	public static Date ENDING_DATE;
 
@@ -73,7 +76,15 @@ public class TaskServiceTest extends AbstractServiceTest {
 	}
 	@Test
 	public void testTaskListNotEndedHasTask(){
-		assertFalse(taskService.listNotEndedInIntervalOfUser(ID_USER,BEGINNING_DATE,ENDING_DATE).isEmpty());
+		assertFalse(taskService.listNotEndedInIntervalOfUser(ID_USER4,BEGINNING_DATE,ENDING_DATE).isEmpty());
+
+
+	}
+	@Test
+	public void testEndAllTaskInList(){
+		//List<Task> allTasks = taskService.listNotEndedInIntervalOfUser(ID_USER,BEGINNING_DATE,ENDING_DATE);
+		taskService.endAllTaskInList(5L,BEGINNING_DATE,ENDING_DATE);
+		assertEquals(0,taskService.listNotEndedInIntervalOfUser(ID_USER5,BEGINNING_DATE,ENDING_DATE).size());
 
 
 	}
